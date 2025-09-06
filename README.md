@@ -14,12 +14,35 @@
 
 | SNo | Topic | Link | English Summary | Vietnamese Summary |
 |-----|-------|------|-----------------|--------------------|
-| 1 | Difference between Structure and Class | [view](https://www.geeksforgeeks.org/structure-vs-class-in-cpp/) | *(to be added — link to detailed markdown)* | *(sẽ bổ sung — link tới bản markdown chi tiết)* |
-| 2 | Similarities between Structure and Class | [view](https://practice.geeksforgeeks.org/problems/what-are-similarities-between-a-class-and-a-structure) | *(to be added — link to detailed markdown)* | *(sẽ bổ sung — link tới bản markdown chi tiết)* |
-| 3 | When to use Structure over Class | homework | *(to be added — link to detailed markdown)* | *(sẽ bổ sung — link tới bản markdown chi tiết)* |
-| 4 | Access Modifiers | [view](https://www.javatpoint.com/access-modifiers) | *(to be added — link to detailed markdown)* | *(sẽ bổ sung — link tới bản markdown chi tiết)* |
-| 5 | Member Function | [view](https://www.studytonight.com/cpp/types-of-member-function.php) | *(to be added — link to detailed markdown)* | *(sẽ bổ sung — link tới bản markdown chi tiết)* |
-| 6 | Constructor | [view](https://www.geeksforgeeks.org/constructors-c/) | *(to be added — link to detailed markdown)* | *(sẽ bổ sung — link tới bản markdown chi tiết)* |
-| 7 | Destructor | [view](https://www.geeksforgeeks.org/destructors-c/) | *(to be added — link to detailed markdown)* | *(sẽ bổ sung — link tới bản markdown chi tiết)* |
+| 1 | Difference between Structure and Class | [view](https://www.geeksforgeeks.org/structure-vs-class-in-cpp/) | [eng verion](/src/DifferenceBetweenStructureAndClass/en.md) | [vie version](/src/DifferenceBetweenStructureAndClass/vi.md) |
+| 2 | When to use Structure over Class | [view](https://stackoverflow.com/questions/54585/when-should-you-use-a-class-vs-a-struct-in-c) | [eng version](/src/WhenToUseAStructureOverAClass/en.md) | [vie version](/src/WhenToUseAStructureOverAClass/vi.md) |
+| 4 | Access Modifiers | [view](https://www.w3schools.com/cpp/cpp_access_specifiers.asp) | [eng version](/src/AccessModifiers/en.md) | [vie version](/src/AccessModifiers/vi.md) |
+| 5 | Member Function | [view](https://www.studytonight.com/cpp/types-of-member-function.php) | [eng version](/src/MemberFunction/en.md) | [vie version](/src/MemberFunction/vi.md) |
+| 6 | [Constructor](#constructor) | [view](https://www.geeksforgeeks.org/constructors-c/) | A constructor is a special member function of a class that is automatically called when an object is created. It initializes the object’s data members. | Hàm tạo (constructor) là một hàm thành viên đặc biệt của lớp, được tự động gọi khi đối tượng được khởi tạo. Nó dùng để khởi gán các thuộc tính dữ liệu của đối tượng. |
+| 7 | [Destructor](#destructor) | [view](https://www.geeksforgeeks.org/destructors-c/) | A destructor is a special member function of a class that is automatically called when an object is destroyed. It is mainly used to release resources. | Hàm hủy (destructor) là một hàm thành viên đặc biệt của lớp, được tự động gọi khi đối tượng bị hủy. Nó chủ yếu dùng để giải phóng tài nguyên. |
 
-## 
+## Constructor
+
+| SNo | Topic | Link | English Summary | Vietnamese Summary |
+|-----|-------|------|-----------------|-------------------|
+| 1 | Default Constructor | [view](https://www.geeksforgeeks.org/cpp/default-constructors-in-cpp/) | [eng version](/src/DefaultContructor/en.md) | [vie version](/src/DefaultContructor/vi.md) |
+| 2 | Parameterised Constructor | [view](https://www.geeksforgeeks.org/cpp/parameterized-constructor-in-cpp/) | [eng version](/src/ParameterizedConstructor/en.md) | [vie version](/src/ParameterizedConstructor/vi.md) |
+| 3 | Copy Constructor: Deep vs Shallow Copy | [view](https://www.geeksforgeeks.org/difference-between-shallow-and-deep-copy-of-a-class/) | | |
+| 4 | Copy Constructor: Copy Constructor vs Assignment | [view](https://www.geeksforgeeks.org/copy-constructor-vs-assignment-operator-in-c/) | | |
+| 5 | Virtual Constructor | [view](https://www.tutorialspoint.com/virtual-constructor-in-cplusplus) | | |
+| 6 | Virtual Copy Constructor | [view](https://www.tutorialspoint.com/virtual-copy-constructor-in-cplusplus) | | |
+| 7 | Constructor vs Member Functions | [view](https://iq.opengenus.org/constructor-cpp/) | | |
+| 8 | Constructor Overloading | [view](https://stackoverflow.com/questions/37517522/why-would-you-need-to-use-more-than-one-constructor) | | |
+
+## Destructor
+
+## Object
+
+## Important Keywords
+
+## Features of OOPs:
+- Polymorphism
+- Inheritance
+- Encapsulation
+- Abstraction
+
