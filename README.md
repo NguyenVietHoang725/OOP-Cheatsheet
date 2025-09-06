@@ -16,7 +16,8 @@
 |-----|-------|------|-----------------|--------------------|
 | 1 | Difference between Structure and Class | [view](https://www.geeksforgeeks.org/structure-vs-class-in-cpp/) | [eng verion](/src/DifferenceBetweenStructureAndClass/en.md) | [vie version](/src/DifferenceBetweenStructureAndClass/vi.md) |
 | 2 | When to use Structure over Class | [view](https://stackoverflow.com/questions/54585/when-should-you-use-a-class-vs-a-struct-in-c) | [eng version](/src/WhenToUseAStructureOverAClass/en.md) | [vie version](/src/WhenToUseAStructureOverAClass/vi.md) |
-| 4 | Access Modifiers | [view](https://www.w3schools.com/cpp/cpp_access_specifiers.asp) | [eng version](/src/AccessModifiers/en.md) | [vie version](/src/AccessModifiers/vi.md) |
+| 3 | Access Modifiers | [view](https://www.w3schools.com/cpp/cpp_access_specifiers.asp) | [eng version](/src/AccessModifiers/en.md) | [vie version](/src/AccessModifiers/vi.md) |
+| 4 | Friend Keyword | [view](https://www.geeksforgeeks.org/cpp/friend-class-function-cpp/) | [eng version](/src/FriendKeyword/en.md) | [vie version](/src/FriendKeyword/vi.md) |
 | 5 | Member Function | [view](https://www.studytonight.com/cpp/types-of-member-function.php) | [eng version](/src/MemberFunction/en.md) | [vie version](/src/MemberFunction/vi.md) |
 | 6 | [Constructor](#constructor) | [view](https://www.geeksforgeeks.org/constructors-c/) | A constructor is a special member function of a class that is automatically called when an object is created. It initializes the object’s data members. | Hàm tạo (constructor) là một hàm thành viên đặc biệt của lớp, được tự động gọi khi đối tượng được khởi tạo. Nó dùng để khởi gán các thuộc tính dữ liệu của đối tượng. |
 | 7 | [Destructor](#destructor) | [view](https://www.geeksforgeeks.org/destructors-c/) | A destructor is a special member function of a class that is automatically called when an object is destroyed. It is mainly used to release resources. | Hàm hủy (destructor) là một hàm thành viên đặc biệt của lớp, được tự động gọi khi đối tượng bị hủy. Nó chủ yếu dùng để giải phóng tài nguyên. |
@@ -39,6 +40,16 @@
 ## Object
 
 ## Important Keywords
+
+SNo | Topic | Link | English Summary | Vietnamese Summary |
+----|-------|------|----------------|--------------------|
+1 | static | [view](https://www.geeksforgeeks.org/cpp/static-keyword-cpp/) | [eng version](/src/Keyword/static/en.md) | [vie version](/src/Keyword/static/vi.md) |
+2 | virtual | [view](https://www.geeksforgeeks.org/cpp/virtual-function-cpp/) | [eng version](/src/Keyword/virtual/en.md) | [vie version](/src/Keyword/virtual/vi.md) |
+3 | final | [view](https://www.geeksforgeeks.org/cpp/c-final-specifier/) | [eng version](/src/Keyword/final/en.md) | [vie version](/src/Keyword/final/vi.md) |
+4 | explicit | [view](https://www.geeksforgeeks.org/cpp/use-of-explicit-keyword-in-cpp/) | [eng version](/src/Keyword/explicit/en.md) | [vie version](/src/Keyword/explicit/vi.md) |
+5 | this | [view](https://www.javatpoint.com/this-keyword) | [eng version](/src/Keyword/this/en.md) | [vie version](/src/Keyword/this/vn.md) |
+6 | new | [view](https://www.geeksforgeeks.org/cpp/new-vs-operator-new-in-cpp/) | [eng version](/src/Keyword/new/en.md) | [view version](/src/Keyword/new/vi.md) |
+7 | const | [view](https://www.geeksforgeeks.org/cpp/const-keyword-in-cpp/) | [eng version](/src/Keyword/const/en.md) | [vie version](/src/Keyword/const/vi.md) |
 
 ## Features of OOPs:
 - Polymorphism

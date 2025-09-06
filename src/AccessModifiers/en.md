@@ -1,6 +1,6 @@
 # Access Modifiers in C++
 
-In C++, **access modifiers** (also called access specifiers) control the visibility and accessibility of class members (data members and member functions) from different parts of the program. They are essential for implementing **encapsulation**, a core principle of object-oriented programming (OOP). The three primary access modifiers in C++ are `public`, `private`, and `protected`. Additionally, the `friend` keyword provides a mechanism to grant access to non-members, but it is not considered a traditional access modifier. The term "protected friend" is not a standard concept in C++ but may arise in discussions, so we’ll clarify it below.
+In C++, **access modifiers** (also called access specifiers) control the visibility and accessibility of class members (data members and member functions) from different parts of the program. They are essential for implementing **encapsulation**, a core principle of object-oriented programming (OOP). The three primary access modifiers in C++ are `public`, `private`, and `protected`.
 
 ## Primary Access Modifiers
 
@@ -64,56 +64,6 @@ In C++, **access modifiers** (also called access specifiers) control the visibil
      }
      ```
 
-## The `friend` Keyword
-
-- **Definition**: The `friend` keyword is not an access modifier but a mechanism to grant **non-members** (functions, classes, or specific methods) full access to a class’s private and protected members.
-- **Accessibility**: A `friend` function or class can access all members of the class that declares it as a friend, regardless of their access specifiers (`private` or `protected`).
-- **Use Case**: Used when external functions or classes need direct access to a class’s internal data, often for operations like operator overloading or tightly coupled classes.
-- **Example**:
-  ```cpp
-  class Example {
-  private:
-      int x;
-  public:
-      Example(int val) : x(val) {}
-      friend void print(Example&); // Friend function
-  };
-  void print(Example& e) {
-      cout << e.x; // Allowed: print is a friend
-  }
-  int main() {
-      Example obj(10);
-      print(obj); // Outputs: 10
-      return 0;
-  }
-  ```
-- **Key Points**:
-  - `friend` declarations are made inside the class but affect external entities.
-  - Friendship is **not inherited**, **not reciprocal**, and **not transitive** (e.g., a friend of a class does not automatically become a friend of its derived classes).
-  - Overuse of `friend` can break encapsulation, so it should be used sparingly.
-
-## Clarifying "Protected Friend"
-
-- **Not a Standard Term**: The term **"protected friend"** does not exist in standard C++. It may be a confusion stemming from combining `protected` and `friend` concepts or from other programming languages (e.g., C# has `protected internal`).
-- **Possible Interpretation**:
-  - If someone refers to "protected friend," they might mean a `friend` function/class that accesses `protected` members of a class or its derived classes.
-  - Alternatively, it could refer to a scenario where a `friend` is used in a derived class to access `protected` members inherited from a base class.
-  - **Example**:
-    ```cpp
-    class Base {
-    protected:
-        int x;
-    };
-    class Derived : public Base {
-    public:
-        friend void access(Derived&);
-    };
-    void access(Derived& d) {
-        cout << d.x; // Allowed: access is a friend and x is protected
-    }
-    ```
-- **Clarification**: This is still just a `friend` accessing a `protected` member, not a distinct access modifier. C++ does not define a "protected friend" specifier.
-
 ## Key Notes
 - **Default Access**:
   - In a `class`, members are `private` by default.
@@ -121,12 +71,10 @@ In C++, **access modifiers** (also called access specifiers) control the visibil
 - **Inheritance and Access Modifiers**:
   - The type of inheritance (`public`, `private`, `protected`) affects how base class members are accessed in derived classes. For example, `protected` members remain `protected` in a publicly inherited derived class but become inaccessible outside the class hierarchy.
 - **Encapsulation**: Use `private` and `protected` to hide implementation details and ensure data integrity. Use `public` for the class’s interface.
-- **Friend vs. Access Modifiers**: `friend` is not an access modifier because it doesn’t define the accessibility of members within the class; instead, it grants exceptions to external entities to bypass normal access restrictions.
 - **Best Practices**:
   - Use `private` for data that should not be accessed directly.
   - Use `protected` for members that derived classes need to access.
   - Use `public` for the class’s interface.
-  - Use `friend` cautiously to avoid undermining encapsulation.
 
 ## Summary
-C++ has three primary access modifiers: `public`, `private`, and `protected`, which control member accessibility. The `friend` keyword is a separate mechanism that allows specific non-members to access private and protected members, but it is not an access modifier. The concept of "protected friend" is not standard in C++ and likely refers to a friend accessing protected members. Understanding these distinctions is crucial for designing robust, encapsulated, and maintainable C++ programs.
+C++ has three primary access modifiers: `public`, `private`, and `protected`, which control member accessibility. Understanding these modifiers is crucial for designing robust, encapsulated, and maintainable C++ programs.
