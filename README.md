@@ -29,14 +29,19 @@
 |-----|-------|------|-----------------|-------------------|
 | 1 | Default Constructor | [view](https://www.geeksforgeeks.org/cpp/default-constructors-in-cpp/) | [eng version](/src/DefaultContructor/en.md) | [vie version](/src/DefaultContructor/vi.md) |
 | 2 | Parameterised Constructor | [view](https://www.geeksforgeeks.org/cpp/parameterized-constructor-in-cpp/) | [eng version](/src/ParameterizedConstructor/en.md) | [vie version](/src/ParameterizedConstructor/vi.md) |
-| 3 | Copy Constructor: Deep vs Shallow Copy | [view](https://www.geeksforgeeks.org/difference-between-shallow-and-deep-copy-of-a-class/) | | |
-| 4 | Copy Constructor: Copy Constructor vs Assignment | [view](https://www.geeksforgeeks.org/copy-constructor-vs-assignment-operator-in-c/) | | |
-| 5 | Virtual Constructor | [view](https://www.tutorialspoint.com/virtual-constructor-in-cplusplus) | | |
-| 6 | Virtual Copy Constructor | [view](https://www.tutorialspoint.com/virtual-copy-constructor-in-cplusplus) | | |
-| 7 | Constructor vs Member Functions | [view](https://iq.opengenus.org/constructor-cpp/) | | |
-| 8 | Constructor Overloading | [view](https://stackoverflow.com/questions/37517522/why-would-you-need-to-use-more-than-one-constructor) | | |
+| 3 | Copy Constructor: Copy Constructor vs Assignment + Deep vs Shallow Copy| [view](https://www.geeksforgeeks.org/copy-constructor-vs-assignment-operator-in-c/) </br> [view](https://www.geeksforgeeks.org/difference-between-shallow-and-deep-copy-of-a-class/) | [eng version](/src/CopyConstructor/en.md) | [vie version](/src/CopyConstructor/vi.md) |
+| 4 | Virtual Constructor | [view](https://www.tutorialspoint.com/virtual-constructor-in-cplusplus) | [eng version](/src/VirtualConstructor/en.md) | [vie version](/src/VirtualConstructor/vi.md) |
+| 5 | Virtual Copy Constructor | [view](https://www.tutorialspoint.com/virtual-copy-constructor-in-cplusplus) | [eng version](/src/VirtualCopyConstructor/en.md) | [vie version](/src/VirtualCopyConstructor/vi.md) |
 
 ## Destructor
+
+| SNo | Topic | Link | English Summary | Vietnamese Summary |
+|-----|-------|------|-----------------|-------------------|
+| 1 | Private Destructor | [view](https://www.geeksforgeeks.org/cpp/private-destructor-in-cpp/) | [eng version](/src/PrivateDestructor/en.md) | [vie version](/src/PrivateDestructor/vi.md) |
+| 2 | Virtual Destructor | [view](https://www.geeksforgeeks.org/cpp/virtual-destructor/) | [eng version](/src/VirtualDestructor/en.md) | [vie version](/src/VirtualDestructor/vi.md) |
+| 3 | Pure Virtual Destructor | [view](https://www.geeksforgeeks.org/cpp/pure-virtual-destructor-c/) | [eng version](/src/PureVirtualDestructor/en.md) | [vie version](/src/PureVirtualDestructor/vi.md) |
+| 3 | Pure Virtual Destructor | [view](https://www.geeksforgeeks.org/cpp/pure-virtual-destructor-c/) | [eng version](/src/PureVirtualDestructor/en.md) | [vie version](/src/PureVirtualDestructor/vi.md) |
+| 4 | Tips & Notes on Destructor | [view](https://stackoverflow.com/questions/461203/when-to-use-virtual-destructors) </br> [view](https://stackoverflow.com/questions/21934810/why-a-class-has-only-one-destructor/21934951) </br> [view](https://stackoverflow.com/questions/22491174/when-do-we-need-to-define-destructors) | [eng version](/src/Tip&NoteOnDestructor/en.md) | [vie version](/src/Tip&NoteOnDestructor/vi.md) |
 
 ## Object
 
